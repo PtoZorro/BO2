@@ -917,7 +917,6 @@ treasure_chest_chooserandomweapon( player ) //checked matches cerberus output
 	return keys[ randomint( keys.size ) ];
 }
 
-nl
 treasure_chest_canplayerreceiveweapon( player, weapon, pap_triggers ) //checked matches cerberus output
 {
 	if ( !get_is_in_box( weapon ) )
